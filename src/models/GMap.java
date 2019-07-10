@@ -855,7 +855,7 @@ public class GMap {
 					new GChoice("Go left", 81, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go straight", 81, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 81, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_LEFT.wav"),
+					}, "sounds/CreepyBreath_LEFT.wav"),
 	
 	
 	// N79: Special Node 1 (MIDDLE)
@@ -865,7 +865,7 @@ public class GMap {
 					new GChoice("Go left", 81, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 81, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go right", 81, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_FRONT.wav"),
+					}, "sounds/CreepyBreath_FRONT.wav"),
 	
 	// N80: Special Node 1 (RIGHT)
 	new GNode("It's so dark",
@@ -874,7 +874,7 @@ public class GMap {
 					new GChoice("Go left", 81, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 81, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 81, ChoiceType.MONSTER_SAFE),
-					}, "CreepyBreath_RIGHT.wav"),
+					}, "sounds/CreepyBreath_RIGHT.wav"),
 	
 	// N81: Special Node 2 (LEFT)
 	new GNode("I can't feel my legs",
@@ -883,7 +883,7 @@ public class GMap {
 					new GChoice("Go left", 84, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go straight", 84, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 84, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_LEFT.wav"),
+					}, "sounds/CreepyBreath_LEFT.wav"),
 	
 	
 	// N82: Special Node 1 (MIDDLE)
@@ -893,7 +893,7 @@ public class GMap {
 					new GChoice("Go left", 84, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 84, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go right", 84, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_FRONT.wav"),
+					}, "sounds/CreepyBreath_FRONT.wav"),
 	
 	// N83: Special Node 2 (RIGHT)
 	new GNode("I can't feel my legs",
@@ -902,7 +902,7 @@ public class GMap {
 					new GChoice("Go left", 84, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 84, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 84, ChoiceType.MONSTER_SAFE),
-					}, "CreepyBreath_RIGHT.wav"),
+					}, "sounds/CreepyBreath_RIGHT.wav"),
 	
 	// N84: Special Node 3 (LEFT)
 	new GNode("My head is spinning...",
@@ -911,7 +911,7 @@ public class GMap {
 					new GChoice("Go left", 87, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go straight", 87, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 87, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_LEFT.wav"),
+					}, "sounds/CreepyBreath_LEFT.wav"),
 	
 	
 	// N85: Special Node 3 (MIDDLE)
@@ -921,7 +921,7 @@ public class GMap {
 					new GChoice("Go left", 87, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 87, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go right", 87, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_FRONT.wav"),
+					}, "sounds/CreepyBreath_FRONT.wav"),
 	
 	// N86: Special Node 4 (RIGHT)
 	new GNode("My head is spinning...",
@@ -930,7 +930,7 @@ public class GMap {
 					new GChoice("Go left", 87, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 87, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 87, ChoiceType.MONSTER_SAFE),
-					}, "CreepyBreath_RIGHT.wav"),
+					}, "sounds/CreepyBreath_RIGHT.wav"),
 	
 	// N87: Special Node 4 (LEFT)
 	new GNode("My heart has stopped...",
@@ -939,7 +939,7 @@ public class GMap {
 					new GChoice("Go left", 90, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go straight", 90, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 90, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_LEFT.wav"),
+					}, "sounds/CreepyBreath_LEFT.wav"),
 	
 	
 	// N88: Special Node 4 (MIDDLE)
@@ -949,7 +949,7 @@ public class GMap {
 					new GChoice("Go left", 90, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 90, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go right", 90, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_FRONT.wav"),
+					}, "sounds/CreepyBreath_FRONT.wav"),
 	
 	// N89: Special Node 4 (RIGHT)
 	new GNode("My heart has stopped...",
@@ -958,7 +958,7 @@ public class GMap {
 					new GChoice("Go left", 90, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 90, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 90, ChoiceType.MONSTER_SAFE),
-					}, "CreepyBreath_RIGHT.wav"),
+					}, "sounds/CreepyBreath_RIGHT.wav"),
 	
 	// N90: Special Node 5 (LEFT)
 	new GNode("...",
@@ -967,7 +967,7 @@ public class GMap {
 					new GChoice("Go left", 93, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go straight", 93, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 93, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_LEFT.wav"),
+					}, "sounds/CreepyBreath_LEFT.wav"),
 	
 	
 	// N91: Special Node 5 (MIDDLE)
@@ -977,7 +977,7 @@ public class GMap {
 					new GChoice("Go left", 93, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 93, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go right", 93, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_FRONT.wav"),
+					}, "sounds/CreepyBreath_FRONT.wav"),
 	
 	// N92: Special Node 5 (RIGHT)
 	new GNode("...",
@@ -986,7 +986,7 @@ public class GMap {
 					new GChoice("Go left", 93, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 93, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 93, ChoiceType.MONSTER_SAFE),
-					}, "CreepyBreath_RIGHT.wav"),
+					}, "sounds/CreepyBreath_RIGHT.wav"),
 	
 	// N93: Special Node 5 (LEFT)
 	new GNode("",
@@ -995,7 +995,7 @@ public class GMap {
 					new GChoice("Go left", 96, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go straight", 96, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 96, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_LEFT.wav"),
+					}, "sounds/CreepyBreath_LEFT.wav"),
 	
 	
 	// N94: Special Node 5 (MIDDLE)
@@ -1005,7 +1005,7 @@ public class GMap {
 					new GChoice("Go left", 96, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 96, ChoiceType.MONSTER_SAFE),
 					new GChoice("Go right", 96, ChoiceType.MONSTER_PATH),
-					}, "CreepyBreath_FRONT.wav"),
+					}, "sounds/CreepyBreath_FRONT.wav"),
 	
 	// N95: Special Node 5 (RIGHT)
 	new GNode("",
@@ -1014,7 +1014,7 @@ public class GMap {
 					new GChoice("Go left", 96, ChoiceType.MONSTER_PATH),
 					new GChoice("Go straight", 96, ChoiceType.MONSTER_PATH),
 					new GChoice("Go right", 96, ChoiceType.MONSTER_SAFE),
-					}, "CreepyBreath_RIGHT.wav"),
+					}, "sounds/CreepyBreath_RIGHT.wav"),
 	
 	// N96: Special Victory
 	new GNode("True Victory",

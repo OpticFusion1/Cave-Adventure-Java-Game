@@ -10,12 +10,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.File;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Random;
 
-import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -103,7 +102,7 @@ public class GFrame extends JFrame {
 		this.add(this.nodeText);
 		
 		// Set bound/properties of restartButton and add to frame
-		this.restartButton.setBounds(15, 20, 70, 30);
+		this.restartButton.setBounds(10, 20, 80, 30);
 		this.restartButton.setBackground(new Color(255, 128, 128));
 		this.restartButton.addActionListener(new ActionListener() { 
 			public void actionPerformed(ActionEvent e) { 
@@ -119,7 +118,7 @@ public class GFrame extends JFrame {
 		this.loadNode(GMap.nodes[0]);
 		
 		// Start the music
-		SoundPlayer.playMidi("d_e2m4.mid");
+		SoundPlayer.playMidi("sounds/d_e2m4.mid");
 		
 		// Prepare frame for viewing
 		this.setTitle("Text Adventure");
@@ -150,7 +149,7 @@ public class GFrame extends JFrame {
 		
 		// Play "ding" sound if new 'item' acquired
 		if(itemAdded) {
-			SoundPlayer.playWAV("ding.wav");
+			SoundPlayer.playWAV("sounds/ding.wav");
 		}
 		
 		// Play sound on delay if exists in node
@@ -455,27 +454,26 @@ public class GFrame extends JFrame {
 		testPanel.setVisible(true);
 		testPanel.setBounds(0, 0, GFrame.this.fWidth, GFrame.this.fHeight);
 		
-		// Set popup image
-		InputStream stream = this.getClass().getClassLoader().getResourceAsStream("popup.png");
+		// Load image
 		ImageIcon image;
 		try {
-			image = new ImageIcon(ImageIO.read(stream));
+			File file = new File("images/popup.png");
+			URL url = file.toURI().toURL();
+			image = new ImageIcon(url);
 			JLabel label = new JLabel("", image, JLabel.CENTER);
 			testPanel.add(label, BorderLayout.CENTER );
-			//testPanel.setBackground(Color.red);
 			testFrame.add(testPanel);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		} catch (Exception e) {
+			System.out.println("'images/popup.png' not found.");
 			e.printStackTrace();
 		}
-
 		
 		// Set frame to be visible
 		testFrame.setVisible(true);
 		testFrame.pack();
 		
 		// Play creepy sound
-		SoundPlayer.playWAV("CreepyBreath_GOTCHA.wav");
+		SoundPlayer.playWAV("sounds/CreepyBreath_GOTCHA.wav");
 		
 		// Create timer for small period that closes pop-up on finish
 		int delay = 400; //milliseconds
